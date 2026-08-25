@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 21.59 21.59)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5242f406-dfd6-4979-a229-195992a0de2b")
+		(property "Sheetname" "Power"
+			(at 21.59 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 21.59 29.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pika_go_0"
+				(path "/71487f0a-8ca7-4aa8-8af1-384680074486"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 57.15 40.64)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
@@ -144,7 +190,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 40.64)
+		(at 57.15 57.15)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +206,7 @@
 		)
 		(uuid "bc745c4d-e635-4b44-8de7-9c80a85fdec8")
 		(property "Sheetname" "Audio"
-			(at 21.59 39.9284 0)
+			(at 57.15 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 21.59 48.8446 0)
+			(at 57.15 65.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -184,13 +230,13 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 21.59 21.59)
+		(at 21.59 40.64)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -205,8 +251,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d4834560-dcbf-4b73-a557-46512f85deb5")
-		(property "Sheetname" "USB Power"
-			(at 21.59 20.8784 0)
+		(property "Sheetname" "USB"
+			(at 21.59 39.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -216,8 +262,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb_power.kicad_sch"
-			(at 21.59 29.7946 0)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 21.59 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -230,7 +276,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486"
-					(page "2")
+					(page "4")
 				)
 			)
 		)

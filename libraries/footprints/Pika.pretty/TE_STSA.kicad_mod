@@ -1,0 +1,151 @@
+(footprint "TE_STSA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Tactile switch, 6.2x6.2mm, gullwing leads, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=ALCOSWITCH_Sealed_Tactile_Switches&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2506469-3")
+	(tags "TE STSA")
+	(property "Reference" "REF**"
+		(at 0 4.24 0)
+		(layer "F.SilkS")
+		(uuid "855ce11f-6298-455d-a5d1-2f08e0c1e93c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_STSA"
+		(at 0 -4.23 0)
+		(layer "F.Fab")
+		(uuid "37100e2f-7385-4283-abe2-8ee44881d5be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe779b6e-18a2-4aad-bdf9-8d069830b2b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efd81f3a-1e6b-4954-920b-9a3de36a26c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.2 -3.2)
+		(end 3.2 3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "06706bbf-9457-4084-99fa-3440c250dce5")
+	)
+	(fp_rect
+		(start -6.25 -3.35)
+		(end 6.25 3.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "12296d73-ed36-4275-8ac2-eca62eabf28d")
+	)
+	(fp_rect
+		(start -3.1 -3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e823a831-079c-4ce3-898a-366549cb6468")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.475 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fc5c4a1e-04ba-41f7-a8a5-de17fdd0615c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1b5f3ab7-0c8b-4142-b1ea-505fe1d3b18e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.125 -2.25)
+		(size 1.25 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "2e712a88-2843-408f-bcb5-c9df2f04a5d8")
+	)
+	(pad "1" smd roundrect
+		(at 4.125 -2.25)
+		(size 1.25 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cf471af1-3d1d-4e14-9a03-8f2aa3dd3dd2")
+	)
+	(pad "2" smd roundrect
+		(at -4.125 2.25)
+		(size 1.25 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7bf127ae-7137-402c-96a0-e8f05e17af74")
+	)
+	(pad "2" smd roundrect
+		(at 4.125 2.25)
+		(size 1.25 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4afd6466-a020-4631-9d8b-ea10e0ba7b14")
+	)
+	(embedded_fonts no)
+	(model "/home/ton/Dropbox/KiCad/lib/STS31A18GSMTR/450_c-2506469-3-a-3d.stp"
+		(offset
+			(xyz 3.1 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

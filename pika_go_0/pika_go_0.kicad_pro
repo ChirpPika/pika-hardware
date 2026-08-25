@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.665,
-          "width": 3.69
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -239,7 +239,8 @@
         0.15,
         0.2,
         0.3,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -791,7 +792,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -850,7 +851,7 @@
         "uuid": "71487f0a-8ca7-4aa8-8af1-384680074486"
       }
     ],
-    "used_designators": "SW7,L2,J10-11,C5,C37-52,R7-8,R25-26,FB2,#PWR13,#PWR15,#PWR18,#PWR20-21,#PWR91-109,U8-10",
+    "used_designators": "U1-2,U8-15,#PWR2,#PWR4,#PWR8-11,#PWR13-23,#PWR84-150,FB1-4,R1-9,R23-40,C1-9,C36-81,D1-4,J1-2,J4,J10-13,L1-6,SW7,NT1-3,RN1-3",
     "variants": []
   },
   "sheets": [
@@ -859,16 +860,16 @@
       "pika_go_0"
     ],
     [
-      "d4834560-dcbf-4b73-a557-46512f85deb5",
-      "USB Power"
+      "5242f406-dfd6-4979-a229-195992a0de2b",
+      "Power"
     ],
     [
       "9688c638-a9d9-46dc-9a48-ef2bfde0f5dc",
       "MCU"
     ],
     [
-      "bc745c4d-e635-4b44-8de7-9c80a85fdec8",
-      "Audio"
+      "d4834560-dcbf-4b73-a557-46512f85deb5",
+      "USB"
     ],
     [
       "5a302e3d-d282-41fb-b48e-1fbf9b3c621c",
@@ -877,6 +878,10 @@
     [
       "b714831d-7c84-4e82-80fc-c753a31ecf3a",
       "GNSS"
+    ],
+    [
+      "bc745c4d-e635-4b44-8de7-9c80a85fdec8",
+      "Audio"
     ]
   ],
   "text_variables": {},
