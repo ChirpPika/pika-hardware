@@ -1312,7 +1312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32887b53-80d2-4e3e-a024-186f8075dda8")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR091"
 			(at 99.06 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1373,7 +1373,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/b714831d-7c84-4e82-80fc-c753a31ecf3a"
-					(reference "#PWR078")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -1391,7 +1391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83262b50-b95b-4943-809c-a17f7ecd79c7")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR090"
 			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1452,7 +1452,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/b714831d-7c84-4e82-80fc-c753a31ecf3a"
-					(reference "#PWR077")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1469,7 +1469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d9327d4-8654-495a-b983-6e59e6b486a9")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR092"
 			(at 101.6 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -1530,7 +1530,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/b714831d-7c84-4e82-80fc-c753a31ecf3a"
-					(reference "#PWR079")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -1548,7 +1548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a221a9ee-b1e5-448e-98d1-05aafad19b10")
-		(property "Reference" "C34"
+		(property "Reference" "C38"
 			(at 102.87 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,6 +1625,17 @@
 				)
 			)
 		)
+		(property "MP" "C0603C104K5RACTU"
+			(at 99.06 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d3256ef1-eaca-4312-aa23-a9912d5894e5")
 		)
@@ -1634,7 +1645,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/b714831d-7c84-4e82-80fc-c753a31ecf3a"
-					(reference "C34")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -1652,7 +1663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4ca608e-f0ec-485a-90a4-a3261b0a4eb4")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 58.42 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1920,7 +1931,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/b714831d-7c84-4e82-80fc-c753a31ecf3a"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)

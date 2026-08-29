@@ -4018,7 +4018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0071c942-ba03-471e-9acb-07f7aa8c1444")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 121.92 68.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4115,7 +4115,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0141c769-ca9c-4a06-8087-417bd22f30de")
-		(property "Reference" "FB4"
+		(property "Reference" "FB1"
 			(at 251.4092 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4208,6 +4208,17 @@
 				)
 			)
 		)
+		(property "MP" "2508056017Y2"
+			(at 251.46 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7a16fd6-83b4-427b-90fb-ff34de06ae4b")
 		)
@@ -4217,7 +4228,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "FB4")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -4234,7 +4245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0aa98c7b-52f5-46f8-92d1-7137e67c649c")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR026"
 			(at 213.36 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4295,7 +4306,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0144")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4313,7 +4324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e88d22e-6a52-44a3-982b-b04d1b362e8a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 106.68 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4385,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4392,7 +4403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "155cb8c7-02e7-492b-bda5-4fec530ae836")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 109.22 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4467,7 +4478,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4485,7 +4496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16063d2f-67a8-4f4f-8136-94cffe36d3ad")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR021"
 			(at 160.02 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4545,7 +4556,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR088")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4563,7 +4574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18957d66-32cf-4a54-bcb9-630eaf518948")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 59.69 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4638,6 +4649,17 @@
 				)
 			)
 		)
+		(property "MP" "RC0603FR-0710KL"
+			(at 66.04 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f23617e-585a-4f5e-82f2-d49b58dce7bf")
 		)
@@ -4647,7 +4669,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4666,7 +4688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22251566-d185-4b86-a052-ae90b4e772ea")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR016"
 			(at 132.08 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4749,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0146")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4847,7 +4869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32481297-3b3e-4aff-a3ed-dbeb31892907")
-		(property "Reference" "R27"
+		(property "Reference" "R6"
 			(at 91.44 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4922,6 +4944,17 @@
 				)
 			)
 		)
+		(property "MP" "RC0603FR-0710KL"
+			(at 97.79 31.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea8fd6ac-e0df-43ca-a402-00b5b90fc14b")
 		)
@@ -4931,7 +4964,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R27")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4949,7 +4982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a20071c-9453-4b72-855d-d5767572f3c6")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR017"
 			(at 143.51 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5010,7 +5043,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0148")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5028,7 +5061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f5e4394-2d7e-40ed-ba21-e19b87ef4dc1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 114.3 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5089,7 +5122,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5106,7 +5139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40552afd-71f8-4ccf-9c91-61e6eaf333c6")
-		(property "Reference" "C72"
+		(property "Reference" "C10"
 			(at 147.32 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5183,6 +5216,17 @@
 				)
 			)
 		)
+		(property "MP" "C0603C104K5RACTU"
+			(at 143.51 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d39f6157-a042-4413-a954-4c613311fd40")
 		)
@@ -5192,7 +5236,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C72")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418b3027-32c3-4970-89e5-71e181215aa2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR07"
 			(at 81.28 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5272,7 +5316,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR017")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4282d059-396d-4a37-bdc0-c1af1977927b")
-		(property "Reference" "C71"
+		(property "Reference" "C9"
 			(at 135.89 138.4301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5387,7 +5431,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C71")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5405,7 +5449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ee8f68-9fc9-44a0-b9f5-768e7f5aac9d")
-		(property "Reference" "U11"
+		(property "Reference" "U1"
 			(at 87.63 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5482,6 +5526,17 @@
 				)
 			)
 		)
+		(property "MP" "TPS610333DRLR"
+			(at 69.85 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "c0901c19-9c3d-4a3d-9438-4f56ae3cc1c9")
 		)
@@ -5509,7 +5564,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "U11")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5527,7 +5582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d36255-9c09-454d-99ab-18c2350cdde0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR02"
 			(at 45.72 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5587,7 +5642,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5605,7 +5660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51afcdbc-959a-4b87-ba1f-51bedc096210")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR01"
 			(at 43.18 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5666,7 +5721,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0128")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5685,7 +5740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cebc415-3f80-4db4-aded-19ecfa1d24f3")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 171.45 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5746,7 +5801,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5764,7 +5819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61ebf459-b2e8-4a5f-9799-a6ca86544c12")
-		(property "Reference" "C61"
+		(property "Reference" "C1"
 			(at 39.37 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5861,7 +5916,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C61")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5879,7 +5934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67b0c717-45ef-4799-9da6-13e97ccf6445")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 110.49 68.5801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5976,7 +6031,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5994,7 +6049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cf6cbd4-43a8-46be-a3e2-56787645fb6b")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 62.23 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,6 +6135,17 @@
 				)
 			)
 		)
+		(property "MP" "RC0603FR-07261RL"
+			(at 68.58 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ceab644c-6667-462b-9439-a2a087157a8f")
 		)
@@ -6089,7 +6155,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6108,7 +6174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dbe1a7c-e98c-4973-8caf-1d71c1f47686")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR06"
 			(at 71.12 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6169,7 +6235,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR019")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77dea815-fe23-4836-8ff4-739d9c9d9922")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR04"
 			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6248,7 +6314,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR013")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6266,7 +6332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84268d2f-d6d0-43f0-950c-93372adbb9bd")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR025"
 			(at 213.36 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6327,7 +6393,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0143")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6340,12 +6406,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "845a0ac0-7592-49fd-8f4c-ff521236f885")
-		(property "Reference" "R31"
+		(property "Reference" "R5"
 			(at 63.5 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6429,7 +6495,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R31")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c83a79-02a4-4776-81a7-c39ce514001a")
-		(property "Reference" "L6"
+		(property "Reference" "L1"
 			(at 87.63 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6520,7 +6586,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "L6")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -6538,7 +6604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bff260-7b05-4970-a187-fb3ed24a1376")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR024"
 			(at 201.93 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6599,7 +6665,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0141")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6617,7 +6683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd51c7c-91c5-4680-af0b-174c32518da1")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR028"
 			(at 252.73 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6678,7 +6744,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0149")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6696,7 +6762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8be110c7-684b-4948-af81-5d155370030a")
-		(property "Reference" "C64"
+		(property "Reference" "C2"
 			(at 52.07 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6773,6 +6839,17 @@
 				)
 			)
 		)
+		(property "MP" "C0603C104K5RACTU"
+			(at 55.88 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0628a641-828f-499f-a760-9595d766d195")
 		)
@@ -6782,7 +6859,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C64")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6799,7 +6876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "956b8bbe-2bce-4110-9467-a2705008b6b5")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR020"
 			(at 148.59 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6860,7 +6937,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0150")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6878,7 +6955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9695aea2-b8c6-40e3-92bd-ecd3dbb568d3")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 166.37 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,6 +7030,28 @@
 				)
 			)
 		)
+		(property "MP" "RC0603FR-075K23L"
+			(at 160.02 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 160.02 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8132d4f8-23d5-4a54-ac1e-0f19d6d18e27")
 		)
@@ -6962,7 +7061,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6980,7 +7079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97381fbb-7a47-4b2e-a487-4d120d41278c")
-		(property "Reference" "C70"
+		(property "Reference" "C8"
 			(at 124.46 138.4301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7176,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C70")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7298,6 +7397,17 @@
 				)
 			)
 		)
+		(property "MP" "LTST-C190KGKT"
+			(at 113.03 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "daf9314f-dd5a-4cc2-8e21-a044f9a95208")
 		)
@@ -7325,7 +7435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a67136dc-c8f8-4f35-afd6-8c31aa381266")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 39.37 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7400,6 +7510,17 @@
 				)
 			)
 		)
+		(property "MP" "RC0603FR-0710KL"
+			(at 45.72 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3cce551f-8e17-41fa-9faa-7a61ac8c3e09")
 		)
@@ -7409,7 +7530,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7427,7 +7548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7852a43-2297-44a8-9712-5c2e7e9a47d6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 97.79 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7487,7 +7608,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7505,7 +7626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc49e53-cce7-4433-a42d-8a30f64f97f5")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR015"
 			(at 120.65 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7687,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0145")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7584,7 +7705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad457183-f151-49ca-bff8-4854e1e629d0")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR018"
 			(at 148.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7644,7 +7765,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR086")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7662,7 +7783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad7d5ddb-aa68-45a4-82b2-f233600575cd")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 50.8 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,6 +7858,17 @@
 				)
 			)
 		)
+		(property "MP" "RC0603FR-0710KL"
+			(at 57.15 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94622338-33dc-4cc4-95ac-0f595611ac58")
 		)
@@ -7746,7 +7878,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7763,7 +7895,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb651165-cb38-48cc-ad26-86a7b2560da8")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 152.4 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7840,6 +7972,17 @@
 				)
 			)
 		)
+		(property "MP" "CL10A475KO8NNNC"
+			(at 148.59 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "401b9e98-6067-4f09-b55b-27b820a81479")
 		)
@@ -7849,7 +7992,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7868,7 +8011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbe6899a-4351-4381-b457-4310d8808682")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR09"
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7929,7 +8072,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0142")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7947,7 +8090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd11026f-95e0-42fd-a23e-e56003f05b51")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 179.07 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8024,6 +8167,17 @@
 				)
 			)
 		)
+		(property "MP" "S3B-PH-K-S"
+			(at 176.53 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "9c8e1bbe-48b0-40db-a460-64dcc4bfdf0c")
 		)
@@ -8036,7 +8190,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8054,7 +8208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfa28616-3d3e-483d-8115-a9cf72695598")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 120.65 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8129,6 +8283,17 @@
 				)
 			)
 		)
+		(property "MP" "ERJ-3EKF3301V"
+			(at 120.65 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f353ac83-d1ee-417c-8f55-64b80b3b8c5e")
 		)
@@ -8138,7 +8303,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c28dad79-aed2-4b46-80e7-f47ff30b55ec")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 146.05 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +8418,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8272,7 +8437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c328bd8e-331c-4679-85e7-56332cf6087c")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR03"
 			(at 55.88 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8333,7 +8498,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0132")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8351,7 +8516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8f1e0a9-578a-4251-96f4-5ecf25b0d638")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR011"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8411,7 +8576,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR090")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8509,7 +8674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd2dac32-ff3f-46e0-982d-e14d8518f3e7")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 149.86 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8570,7 +8735,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdee8aee-470c-43e8-b812-d3078da3e7f0")
-		(property "Reference" "U9"
+		(property "Reference" "U3"
 			(at 201.93 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,6 +8806,17 @@
 				)
 			)
 		)
+		(property "MP" "MCP1703AT-3302E/MB"
+			(at 201.93 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7b38d512-29b1-4a1d-9429-214b6e10bffb")
 		)
@@ -8653,7 +8829,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "U9")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8671,7 +8847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba97284-da01-453e-986b-b2e0ac581af0")
-		(property "Reference" "U13"
+		(property "Reference" "U2"
 			(at 81.28 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8736,6 +8912,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 81.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "BQ25895RTWT"
 			(at 81.28 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8824,7 +9011,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "U13")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8842,7 +9029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbcd850b-0429-47c7-9e0c-ecf83f68f6dd")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR05"
 			(at 68.58 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8902,7 +9089,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR085")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8919,7 +9106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2319455-6f41-4f1a-a5eb-8842bfbe9c9b")
-		(property "Reference" "C69"
+		(property "Reference" "C13"
 			(at 217.17 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8996,6 +9183,17 @@
 				)
 			)
 		)
+		(property "MP" "CL10A475KO8NNNC"
+			(at 213.36 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd840c6a-bd34-45e8-a1c3-63af2ab66452")
 		)
@@ -9005,7 +9203,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C69")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9023,7 +9221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4363da9-0278-43cb-aa5d-1602616d5987")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 166.37 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,6 +9296,28 @@
 				)
 			)
 		)
+		(property "MP" "RC0603FR-0730K1L"
+			(at 160.02 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 160.02 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "933e30f1-6d12-4319-ba28-278ffad9688e")
 		)
@@ -9107,7 +9327,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9125,7 +9345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4cb64eb-edc8-4035-a519-f7d4934a73ea")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR023"
 			(at 186.69 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9186,7 +9406,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0135")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9204,7 +9424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e73bf4da-2bb9-4a6e-bd1a-4f7df3a301aa")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR013"
 			(at 118.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9265,7 +9485,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR087")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9283,7 +9503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0b4e81b-8c01-4779-ba7c-c5e9324c2244")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 62.23 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9360,6 +9580,17 @@
 				)
 			)
 		)
+		(property "MP" "CL10A105KB8NNNC"
+			(at 66.04 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "31ef3801-1378-4162-a7de-72a70870c9f2")
 		)
@@ -9369,7 +9600,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9386,7 +9617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f23b4d13-b292-4341-a95c-a2916e7e9476")
-		(property "Reference" "C36"
+		(property "Reference" "C4"
 			(at 100.33 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,6 +9694,17 @@
 				)
 			)
 		)
+		(property "MP" "CL10B473KB8NNNC"
+			(at 96.52 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9c54699-2edb-41a9-9ede-02fc3ddb4474")
 		)
@@ -9472,7 +9714,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "C36")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9490,7 +9732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffc3edea-8d30-47ca-8f0f-69ea41e154d4")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR027"
 			(at 250.19 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9551,7 +9793,7 @@
 		(instances
 			(project "pika_go_0"
 				(path "/71487f0a-8ca7-4aa8-8af1-384680074486/5242f406-dfd6-4979-a229-195992a0de2b"
-					(reference "#PWR0147")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
