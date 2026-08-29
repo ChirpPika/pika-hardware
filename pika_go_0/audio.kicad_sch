@@ -5308,7 +5308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 152.0952 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5353,6 +5353,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 151.13 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "GRM188Z71A106KA73D"
 			(at 151.13 38.1 0)
 			(hide yes)
 			(show_name no)

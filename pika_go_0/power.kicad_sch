@@ -4040,7 +4040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 119.0752 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4085,6 +4085,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 118.11 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "CL21A226KOQNNNG"
 			(at 118.11 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4392,7 +4403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 109.22 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4403,7 +4414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Pika:L_ABRACON_AMELH4018S"
 			(at 106.68 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4436,29 +4447,7 @@
 				)
 			)
 		)
-		(property "MP" ""
-			(at 106.68 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 106.68 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR_NAME" ""
+		(property "MP" "AMELH4018S-1R0MT"
 			(at 106.68 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5323,7 +5312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 133.0452 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5368,6 +5357,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 132.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "CL21A226KOQNNNG"
 			(at 132.08 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5786,7 +5786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 42.2148 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5831,6 +5831,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 43.18 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "CL21A226KOQNNNG"
 			(at 43.18 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5890,7 +5901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 107.6452 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5945,6 +5956,17 @@
 				)
 			)
 		)
+		(property "MP" "CL21A226KOQNNNG"
+			(at 106.68 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1de281c-2617-4602-bfbf-1d2ecb051639")
 		)
@@ -5982,7 +6004,7 @@
 				)
 			)
 		)
-		(property "Value" "260"
+		(property "Value" "261"
 			(at 64.77 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 121.6152 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7025,6 +7047,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 120.65 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "CL21A226KOQNNNG"
 			(at 120.65 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7084,7 +7117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.0752 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7129,6 +7162,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "GRM188Z71A106KA73D"
 			(at 118.11 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8134,7 +8178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.8948 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8179,6 +8223,17 @@
 			)
 		)
 		(property "MFR_NAME" ""
+			(at 149.86 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "GRM188Z71A106KA73D"
 			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
