@@ -3,3 +3,5 @@ pika_go_0/_restore_backup_*/
 *.bak
 .history
 
+
+pika_go_0/pika_go_0-backups/
