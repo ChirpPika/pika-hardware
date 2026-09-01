@@ -14281,7 +14281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "BKLT"
 			(at 242.57 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
